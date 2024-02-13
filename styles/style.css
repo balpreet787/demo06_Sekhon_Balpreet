@@ -1,1 +1,47 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+
+.bg-info {
+    background-color: #fff1bf !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #ffa500;
+}
+
+.btn-outline-success {
+    color: #b38b00;
+    background-color: #fff1bf;
+    border-color: #ffa500;
+}
+
+.btn-primary {
+    color: #f2fbf2;
+    font-size: 150%;
+    background-color: #ffa500;
+    border-color: #b38b00;
+}
+
+.btn-primary:hover {
+    color: #f2fbf2;
+    font-size: 150%;
+    background-color: #b38b00;
+    border-color: #ffa500;
+}
+
+
+.navbar-brand {
+    font-family: "Sixtyfour", sans-serif;
+    /*change the font name for what you have*/
+    font-size: .8rem;
+}
+
+body {
+    background-color: #ffe380;
+    /* Lightest shade for body background to follow the 60% rule */
+}
